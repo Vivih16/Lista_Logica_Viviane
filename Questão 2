@@ -1,0 +1,26 @@
+#include <iostream> //inclusão da biblioteca
+#include <cmath> //inclusão da biblioteca
+using namespace std;
+
+//----QUESTÂO 2----//
+
+void questao2(int a, int b, int c){
+  int segundos;
+  segundos = (a*3600) + (b*60) + c;
+
+  cout << "Segundos:" << segundos;
+}
+
+int main(){
+
+  int a, b, c;
+
+  cout << "digite as horas:\n";
+  cin >> a;
+  cout << "digite os minutos:\n";
+  cin >> b;
+  cout << "digite os segundos:\n";
+  cin >> c;
+  
+  questao2(a,b,c);
+}
