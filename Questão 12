@@ -1,0 +1,26 @@
+#include <iostream> 
+#include <cmath>
+using namespace std;
+
+//----QUESTÃO 12----//
+
+void questao12(int x, int z){
+  int y, i=0;
+  
+  while(i<z){
+    y=x*x;
+    i=i+1;
+  }
+  cout << "resultado: " << y;
+}
+
+int main(){
+  int x, z;
+  
+  cout << "informe a base:\n";
+  cin >> x;
+  cout << "informe o espoente\n";
+  cin >> z;
+  
+  questao12(x,z);
+}
