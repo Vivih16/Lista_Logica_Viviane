@@ -1,0 +1,22 @@
+#include <iostream> 
+#include <cmath> 
+using namespace std;
+
+//----QUESTÃO 8----//
+
+void questao8(){
+  int i, fatorial=1, c=1;
+
+  cout << "digite o número pra calcular o fatorial:\n";
+  cin >> i;
+  
+  while(c<=i){
+    fatorial = fatorial*c;
+    c=c+1;
+  }
+  cout << "fatorial: " << fatorial;
+}
+
+int main(){
+  questao8();
+}
