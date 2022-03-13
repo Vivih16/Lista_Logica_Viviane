@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath> 
+using namespace std;
+
+//----QUESTÃo 4----//
+
+void questao3(int r){
+  float V, volume;
+  V = (4/3) * (r*r*r);
+  cout << "volume: " << V;
+}
+
+int main(){
+  float R, volume;
+  cout << "informe o raio da esfera:\n";
+  cin >> R;
+  questao3(R);
+}
