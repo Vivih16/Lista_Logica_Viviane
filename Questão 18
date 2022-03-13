@@ -1,0 +1,15 @@
+#include <iostream> 
+#include <cmath> 
+using namespace std;
+
+//---- QUESTÃO 18----//
+
+void questao18(){
+
+  cout << "Números primos acima de 100: 101, 103, 107\n";
+}
+
+int main(){
+
+  questao18();
+}
