@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath> 
+using namespace std;
+
+//-----QUESTÃO 5----//
+
+void questao5(){
+  int n;
+ 
+ cout << "informe um número inteiro\n";
+  cin >> n;
+ 
+ if(n>0){
+    cout << "número informado é positivo";
+  }else{
+    cout << "número informado é negativo";
+  }
+}
+
+int main(){
+  questao5();
+}
